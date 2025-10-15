@@ -41,9 +41,12 @@ proyecto-integrador-modulo1/
      ├── Avance 1
 		 ├──*.SQL			 # consultas
 		 ├──*.docx			 # Resultados
-     ├── Avance 1
-	 ...
-```
+     ├── Avance 2
+ 		 ├──*.SQL			 # consultas
+		 ├──*.docx			 # Resultados
+	 ├── Avance 3
+		 ├──avance3.ipynb	 # Notebook de Python
+
 
 ---
 
