@@ -1,10 +1,10 @@
-# Data Engeneering
+# 🧠 Data Integration & Analytics Project
 
-## Descripción General
+## 📊 Descripción general
 
 Este proyecto tiene como objetivo desarrollar un **pipeline completo de ingeniería y análisis de datos**, desde la integración de fuentes en SQL hasta la transformación y preparación del dataset para modelos de machine learning en Python.  
 
-Para este proyecto es necesario:
+El trabajo simula un entorno empresarial real donde es necesario:
 - Integrar información proveniente de distintas fuentes,  
 - Optimizar la calidad y el rendimiento de la base de datos, y  
 - Transformar los datos en conocimiento útil para la toma de decisiones.  
@@ -13,12 +13,12 @@ El resultado final es un conjunto de **scripts SQL** y un **notebook en Python**
 
 ---
 
-## Estructura del proyecto
+## 🗂️ Estructura del proyecto
 
 El proyecto está dividido en tres fases, cada una centrada en una etapa clave del flujo de datos:
 
-### 1. Integración y análisis exploratorio (SQL)
-[Resultados.docx](Modulo1/Avance1/Resultados.docx)
+### 🔹 1. Integración y análisis exploratorio (SQL)
+📄 `PrimerAvanceProyectoIntegrador.docx`
 
 - Carga y exploración de los datos en SQL.  
 - Identificación de los **productos y vendedores más relevantes**.  
@@ -29,8 +29,8 @@ El proyecto está dividido en tres fases, cada una centrada en una etapa clave d
 
 ---
 
-### 2. Optimización y automatización de la base de datos (SQL avanzado)
-[ResultadosAvance2.docx](Modulo1/Avance2/ResultadosAvance2.docx)
+### 🔹 2. Optimización y automatización de la base de datos (SQL avanzado)
+📄 `SegundoAvanceDelPI.docx`
 
 - Limpieza y mejora de la calidad de los datos.  
 - Creación de un **trigger** que registra automáticamente cuando un producto supera un umbral de ventas acumuladas.  
@@ -41,8 +41,8 @@ El proyecto está dividido en tres fases, cada una centrada en una etapa clave d
 
 ---
 
-### 3. Transformación y feature engineering (Python + Pandas)
-[avance3.ipynb](Modulo1/Avance2/avance3.ipynb)
+### 🔹 3. Transformación y feature engineering (Python + Pandas)
+📄 `TercerAvanceDelPIr.docx`
 
 - Cálculo y validación del campo `TotalPrice` a partir de precios unitarios y descuentos.  
 - Detección de **outliers** mediante el rango intercuartílico (IQR).  
@@ -54,31 +54,57 @@ El proyecto está dividido en tres fases, cada una centrada en una etapa clave d
 
 ---
 
-## Estructura del Repositorio
+## 🧰 Stack tecnológico
 
-```
-proyecto-integrador-modulo1/
- ├── README.md               # Documento descriptivo del proyecto
- ├── Módulo 1	             # 
-     ├── Avance 1
-		 ├──*.SQL			 # consultas
-		 ├──*.docx			 # Resultados
-     ├── Avance 2
- 		 ├──*.SQL			 # consultas
-		 ├──*.docx			 # Resultados
-	 ├── Avance 3
-		 ├──avance3.ipynb	 # Notebook de Python
+| Fase | Tecnología | Propósito |
+|------|-------------|------------|
+| 1 | **SQL** | Integración y exploración de datos |
+| 2 | **SQL avanzado (Triggers, Índices)** | Calidad y optimización de la base de datos |
+| 3 | **Python + Pandas** | Transformación y preparación de datos para análisis |
 
-```
+---
+
+## ⚙️ Ejecución del proyecto
+
+### 🔸 Requisitos
+- **Base de datos:** MySQL / PostgreSQL / SQL Server  
+- **Python 3.x**  
+- Librerías: `pandas`, `numpy`, `matplotlib` *(opcional para visualización)*  
+- Entorno: **Jupyter Notebook** o **VS Code**
+
+### 🔸 Pasos de ejecución
+1. Clonar o descargar el repositorio.  
+2. Ejecutar los scripts SQL para:
+   - Crear la base de datos,  
+   - Ejecutar las consultas analíticas,  
+   - Implementar el trigger y los índices.  
+3. Abrir el notebook (`.ipynb`) y ejecutar cada celda para:
+   - Cargar los datasets,  
+   - Aplicar las transformaciones,  
+   - Generar el dataset final limpio.  
+
+---
+
+## 📈 Resultados esperados
+
+- Análisis descriptivo del rendimiento de productos y vendedores.  
+- Sistema automatizado de monitoreo de ventas mediante trigger.  
+- Base de datos optimizada con índices.  
+- Dataset final con variables derivadas listas para modelado o dashboards.
+
+---
+
+## 🚀 Próximos pasos
+
+- Integración con herramientas de visualización (Power BI / Tableau).  
+- Desarrollo de un modelo predictivo sobre el dataset generado.  
+- Automatización del pipeline con Airflow o Prefect.
+
 ---
 
 ## 👤 Autor
 
-**Nombre:** Mariana Mabel Gil  
-**Correo:** marianagil@gmail.com  
-**LinkedIn:** https://www.linkedin.com/in/mariana-gil-24667718/  
-**GitHub:** https://github.com/marianagil68
-
----
-
-
+**Nombre:** [Tu Nombre Completo]  
+**Correo:** [tu.email@ejemplo.com]  
+**LinkedIn:** [https://www.linkedin.com/in/tuusuario](https://www.linkedin.com/in/tuusuario)  
+**GitHub:** [https://github.com/tuusuario](https://github.com/tuusuario)
