@@ -42,7 +42,7 @@ El proyecto está dividido en tres fases, cada una centrada en una etapa clave d
 ---
 
 ### 3. Transformación y feature engineering (Python + Pandas)
-[avance3.ipynb](Modulo1/Avance2/avance3.ipynb)
+[avance3.ipynb](Modulo1/Avance3/avance3.ipynb)
 
 - Cálculo y validación del campo `TotalPrice` a partir de precios unitarios y descuentos.  
 - Detección de **outliers** mediante el rango intercuartílico (IQR).  
