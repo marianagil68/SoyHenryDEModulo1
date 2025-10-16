@@ -18,7 +18,7 @@ El resultado final es un conjunto de **scripts SQL** y un **notebook en Python**
 El proyecto está dividido en tres fases, cada una centrada en una etapa clave del flujo de datos:
 
 ### 1. Integración y análisis exploratorio (SQL)
-[Resultados.docx](Modulo1/Avance1/Resultados.docx)
+[Resultados.pdf](https://github.com/marianagil68/SoyHenryDEModulo1/blob/main/Modulo1/Avance1/Resultados.pdf)
 
 - Carga y exploración de los datos en SQL.  
 - Identificación de los **productos y vendedores más relevantes**.  
@@ -30,7 +30,7 @@ El proyecto está dividido en tres fases, cada una centrada en una etapa clave d
 ---
 
 ### 2. Optimización y automatización de la base de datos (SQL avanzado)
-[ResultadosAvance2.docx](Modulo1/Avance2/ResultadosAvance2.docx)
+[ResultadosAvance2.pdf](https://github.com/marianagil68/SoyHenryDEModulo1/blob/main/Modulo1/Avance2/ResultadosAvance2.pdf)
 
 - Limpieza y mejora de la calidad de los datos.  
 - Creación de un **trigger** que registra automáticamente cuando un producto supera un umbral de ventas acumuladas.  
@@ -63,9 +63,11 @@ proyecto-integrador-modulo1/
      ├── Avance 1
 		 ├──*.SQL			 # consultas
 		 ├──*.docx			 # Resultados
+		 ├──*.pdf			 # Resultados
      ├── Avance 2
  		 ├──*.SQL			 # consultas
 		 ├──*.docx			 # Resultados
+		 ├──*.pdf			 # Resultados
 	 ├── Avance 3
 		 ├──avance3.ipynb	 # Notebook de Python
 
